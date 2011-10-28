@@ -1,0 +1,151 @@
+body {
+	background-color: #efefef;
+	font-size: 12px;
+	font-family: arial,verdana,sans-serif;
+	padding: 0;
+	margin: 10px;
+	color: #333;
+}
+
+h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 18px;
+}
+h3 {
+	font-size: 16px;
+}
+h1, h2, h3 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+a {
+	color: #0B5D8C;	
+}
+a:hover {
+	color: #024972;
+}
+
+.highlight {
+	background-color: #d3d3d3 !important;
+	color: #333 !important;
+	font-weight: bold !important;
+}
+
+#container {
+
+}
+
+	#content {
+		width: 950px;
+		margin: 0 auto;
+	}
+
+		#sidebar {
+			float: left;
+			width: 170px;
+			padding-right: 10px;
+		}
+		
+			#portal-identifier {
+				text-align: left;
+				margin-bottom: 20px;
+			}
+			
+				#portal-identifier h1 a,
+				#portal-identifier a:hover {
+					font-weight: bold;
+					text-decoration: none;
+					color: #333;
+				}
+				#portal-identifier a:hover {
+					color: #1b1b1b;
+				}
+			
+			#categories ul li {
+				display: block;
+				padding-bottom: 15px;
+				color: #666;
+			}
+		
+		#inner-content {
+			float: right;
+			width: 768px;
+			background-color: white;
+			-webkit-box-shadow: 0 0 4px #ccc;
+			-moz-box-shadow: 0 0 4px #ccc;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border: 1px solid #d7d7d7;
+		}
+	
+			#breadcrumb {
+				padding: 5px 10px;
+				background-color: #d3d3d3;
+				color: #333;
+				font-size: 11px;
+			}
+			
+			#inner-content-body {
+				padding: 20px 10px 10px 10px;
+			}
+			
+				#search {
+					margin-bottom: 30px;
+				}
+				
+					#search label {
+						display: block;
+						font-size: 14px;
+						font-weight: bold;
+						margin-bottom: 5px;
+					}
+				
+					#search input {
+						color: #333;
+						font-size: 14px;
+						padding: 5px;
+						width: 400px;
+					}
+					
+				#article-content ul,
+				#article-content ol {
+					padding: 10px 0 0 30px;
+				}
+				#article-content ol {
+					list-style: decimal;
+					font-size: 14px;
+				}
+					
+					#article-content ol li,
+					#article-content ul li {
+						margin-bottom: 15px;
+						list-style: inherit;
+					}
+					#article-content ul li {
+						list-style: none;
+						font-size: 14px;
+					}
+					
+				a.article-index-title {
+					font-size: 14px;
+					display: block;
+					margin-bottom: 2px;
+				}
+				
+				div.article-index-body {
+					margin-bottom: 20px;
+				}
+				
+				#article-categories {
+					padding: 20px 0 10px 0;
+				}
+				
+					#article-categories ul li {
+						display: block;
+						float: left;
+						padding: 4px;
+					}
